@@ -77,7 +77,7 @@ let comprimentoFrase = frase.length;
 alert(`Este texto tem ${comprimentoFrase} caracteres`);
 
 
-// Exercicio 9 incompleto colocar a primeira letra em maiusculo //
+// Exercicio 9 //
 
 
 let palavra = prompt("Digite uma frase ou uma palavra");
@@ -89,7 +89,7 @@ let ultimoCaractere = palavra[palavraComprimento - 1];
 alert(`A primeira letra deste texto é ${primeiraLetra.toUpperCase()} e última é ${ultimoCaractere.toLowerCase()}`);
 
 
-// Exercicio 10 incompleto colocar o nome e sobrenome em maiusculo //
+// Exercicio 10 //
 
 
 let nomeFuncionario = prompt("Digite seu primeiro nome");
