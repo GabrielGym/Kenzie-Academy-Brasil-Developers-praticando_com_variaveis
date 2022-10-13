@@ -58,12 +58,12 @@ let mediaDaSoma = somaDosNumeros / 5;
 alert(`A soma dos valores informados é: ${somaDosNumeros} e a média das notas é: ${mediaDaSoma}`);
 
 
-// Exercicio 7 incompleto definir a divisao correta com o resto //
+// Exercicio 7 //
 
 
 let valorInteiro1 = parseInt(prompt("Digite um numero positivo"));
 let valorInteiro2 = parseInt(prompt("Digite outro numero positivo"));
-let restoDaDivisao = valorInteiro1 / valorInteiro2;
+let restoDaDivisao = valorInteiro1 % valorInteiro2;
 
 alert(`O resto da divisão de ${valorInteiro1} por ${valorInteiro2} é: ${restoDaDivisao}`);
 
@@ -86,7 +86,7 @@ let primeiraLetra = palavra[0];
 let ultimoCaractere = palavra[palavraComprimento - 1];
 
 
-alert(`A primeira letra deste texto é ${primeiraLetra} e última é ${ultimoCaractere}`);
+alert(`A primeira letra deste texto é ${primeiraLetra.toUpperCase()} e última é ${ultimoCaractere.toLowerCase()}`);
 
 
 // Exercicio 10 incompleto colocar o nome e sobrenome em maiusculo //
@@ -97,4 +97,4 @@ let sobrenomeFuncionario = prompt("Digite seu sobrenome");
 let idadeFuncionario = parseInt(prompt("Digite sua idade"));
 let setorFuncionario = prompt("Digite seu setor");
 
-alert(`nome: ${nomeFuncionario} ${sobrenomeFuncionario} - idade: ${idadeFuncionario} - Setor: ${setorFuncionario}`); 
+alert(`nome: ${nomeFuncionario.toUpperCase()} ${sobrenomeFuncionario.toUpperCase()} - idade: ${idadeFuncionario} - Setor: ${setorFuncionario}`); 
